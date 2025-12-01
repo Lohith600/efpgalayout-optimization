@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# VTR outputs (large files)
+*.blif
+*.net
+*.place
+*.route
+*.log
+vtr_flow/
+*.rpt
+
+# Results (too large for git)
+*.csv
+results/**/*.txt
+results/**/*.rpt
+
+# Keep only summary results
+!results/**/summary.csv
+!results/**/plots/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large data files
+*.tar.gz
+*.zip
+
+# Claude Code metadata
+CLAUDE.md
+
+# Personal notes (local only)
+PERSONAL_NOTES.md
