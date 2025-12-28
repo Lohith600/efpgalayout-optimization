@@ -5,7 +5,12 @@ import os
 
 #k6_frac_N10_frac_chain_depop50_mem32K_40nm.xml is the base architecture on which we perform the genetic algortihm
 
-#sol = dev_var  ,num_sol=num_ind, run_num=monitor
+##run these after opening the repo
+#python3 -m venv .venv
+#source .venv/bin/activate
+#pip install numpy
+#pip install jinja2
+#pip install prettytable
 
 class genetic_algorithm():#this is the class that implements the genetic algorithm
     def __init__(self,sol, num_sol, num_gen, cross_prob, mut_prob):
